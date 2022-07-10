@@ -239,7 +239,7 @@ position: relative;
         padding-bottom: 15px;
         padding-left: 25px;
          padding-right: 25px;
-        border-radius: 3px solid #fff;
+        border-radius: 4px solid #fff;
         text-decoration: none;
         font-family: Tahoma;
         font-size: 18px;
@@ -260,4 +260,28 @@ position: relative;
     color: #808080;
     position: relative;
     left: 35%;
+    
 }
+
+.back_to_top {
+position: fixed; /* фиксированная позиция */
+  color: rgb(17, 16, 16); /* цвет текста */
+  background-color: #c3d7e9; /* цвет заднего фона */
+  right: 20px; /* расстояние от правого края */
+  bottom: 20px; /* расстояние от нижнего края */
+  padding: 4px 10px; /* отступы до содержимого блока */
+  font-size: 30px; /* размер шрифта (иконки) */
+  border-top-left-radius: 4px; /* скругление верхнего левого угла */
+  border-top-right-radius: 4px; /* скругление верхнего правого угла */
+  cursor: pointer; /* форма курсора */
+  display: none; /* не отображать элемент */
+  text-align: center; /*выравнивание содержимого элемента по центру */
+  }
+  
+  .back_to_top:hover {
+    background-color: rgb(137, 121, 121); /* цвет заднего фона при наведении */
+  }
+  
+  .back_to_top-show {
+    display: block;
+  }
